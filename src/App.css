@@ -77,6 +77,10 @@ nav {
   gap: 10px;
 }
 
+ul > a {
+  color: var(--color-white);
+}
+
 ul {
   display: flex;
   flex-direction: column;
@@ -89,6 +93,7 @@ ul {
   height: 95vh;
   list-style: none;
   padding: 10px 20px;
+  color: var(--color-white);
   transition: all 1s;
   transform: translateX(100%);
   -webkit-transition: all 1s;
